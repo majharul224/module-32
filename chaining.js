@@ -27,6 +27,31 @@ console.log(best,faltu); */
 
 //chaining
 
+
+// i
+/* const company = {
+    name: 'GP',
+    ceo: { id: 1, name: 'ajmol', food: 'fuchka' },
+    web: {
+        work: 'website development',
+        employee: 22,
+        framework: 'react',
+        tech: {
+            first: 'html',
+            second: 'css',
+            third: 'js'
+        }
+    },
+}; */
+//console.log(company.web.tech.second);
+//console.log(company.web.back.second); //undefind because no (back) properti
+
+
+
+//chaining ????arrow
+
+
+// ii
 const company = {
     name: 'GP',
     ceo: { id: 1, name: 'ajmol', food: 'fuchka' },
@@ -41,5 +66,6 @@ const company = {
         }
     },
 };
-//console.log(company.web.tech.second);
-//console.log(company.web.back.second); //undefind because no (back) properti
+
+console.log(company?.web?.tech?.third);
+console.log(company?.backend?.tech.third);
