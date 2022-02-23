@@ -17,7 +17,7 @@ const productPrices = products.filter(pd=>pd.price>500);
 console.log(productPrices); */
 
 //string filter
-
+/* 
 const products = [
     { name: 'water bottle', price: 50, color: 'yellow' },
     { name: 'mobile phone', price: 15000, color: 'black' },
@@ -26,4 +26,27 @@ const products = [
     { name: 'water glass', price: 3, color: 'white' }
 ];
 const productColor = products.filter(pd=>pd.color=='black');//products.filter(product=>product.color=='black');
+console.log(productColor); */
+
+
+//empty filter
+/* 
+const products = [
+    { name: 'water bottle', price: 50, color: 'yellow' },
+    { name: 'mobile phone', price: 15000, color: 'black' },
+    { name: 'smart watch', price: 3000, color: 'black' },
+    { name: 'sticky note', price: 30, color: 'pink' },
+    { name: 'water glass', price: 3, color: 'white' }
+];
+const productColor = products.filter(pd=>pd.color=='blue');//products.filter(product=>product.color=='black');
+console.log(productColor); */
+//find object
+const products = [
+    { name: 'water bottle', price: 50, color: 'yellow' },
+    { name: 'mobile phone', price: 15000, color: 'black' },
+    { name: 'smart watch', price: 3000, color: 'black' },
+    { name: 'sticky note', price: 30, color: 'pink' },
+    { name: 'water glass', price: 3, color: 'white' }
+];
+const productColor = products.find(pd=>pd.color=='black');//products.filter(product=>product.color=='black');
 console.log(productColor);
